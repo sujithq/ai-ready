@@ -1,0 +1,18 @@
+name: Bug report
+description: Report a problem with this repository's files or AI guidance.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include relevant files, steps to reproduce, or screenshots.
+    validations:
+      required: false
